@@ -1,4 +1,4 @@
-Resumo do projeto:Projeto desenvolvido com intuito de mostrar as habilidades de desenvolvimento em Html css e java script,projetp desenvolvido com ajuda de um criador de conteudo Sa7man Layout disponibilizado pelo mesmo
+Resumo do projeto:Projeto desenvolvido com intuito de mostrar as habilidades de desenvolvimento em Html css e java script,projeto desenvolvido com ajuda de um criador de conteudo Sa7man Layout disponibilizado pelo mesmo
 
 Link:https://github.com/SA7MAN
 
