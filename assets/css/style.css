@@ -93,10 +93,7 @@ img {
     color: var(--color-brand);
 }
 
-.img-perfil{
-    width: 400px;
-    border-radius: 40px;
-}
+
 
 @media (min-width: 992px) {
     .navbar {
