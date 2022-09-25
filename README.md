@@ -12,4 +12,5 @@ Funcionalidade 3:Responsividade
 
 ✔️ Técnicas e tecnologias utilizadas:HTML,CSS E JAVA SCRIPT Framework Bootstrap
 
-📁 Acesso ao projeto Você pode acessar os arquivos do projeto clicando aqui.
+📁 Acesso ao projeto Você pode acessar os arquivos do projeto clicando aqui.https://ikauematos.github.io/Portfolio/
+
