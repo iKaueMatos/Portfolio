@@ -2,7 +2,7 @@
 
 :root {
     --color-body: #b6cbce;
-    --color-heading: #eef3db;
+    --color-heading: #ffffff;
     --color-base: #033f47;
     --color-base2: #022a30;
     --color-brand: #80f3f7;
@@ -187,9 +187,7 @@ img {
 }
 
 /* SOCIAL ICONS */
-.social-icons {
 
-}
 
 .social-icons a {
     width: 40px;
