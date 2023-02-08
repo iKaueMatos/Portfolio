@@ -4,7 +4,7 @@ Portfolio
 
 
 
-> O intuito do desenvolvimento desse projeto  e mostrar meus conhecimentos em desenvolvimento web,juntamente com as tecnoligias de back-end
+> O intuito do desenvolvimento desse projeto  e mostrar meus conhecimentos,projetos e também a divulgação de projetos pessoais que foram desenvolvidos por min!
 
 
 ### Ajustes e melhorias
