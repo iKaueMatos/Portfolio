@@ -12,7 +12,7 @@
 
 body {
     background-color: var(--color-base2);
-    color: var(--color-body);
+    color: var(--color-base);
     font-family: var(--font-base), sans-serif;
 }
 
@@ -45,8 +45,13 @@ img {
     font-weight: bold;
 }
 
-.text-brand3 p {
-    color: #fff;
+.text-brand2 {
+    color: var(--color-body);
+}
+
+.text-brand3 {
+    font-weight: 800;
+    color: var(--color-base);
 }
 
 .bg-base {
