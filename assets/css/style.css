@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
-
 :root {
-    --color-body: #b6cbce;
-    --color-heading: #ffffff;
-    --color-base: #033f47;
-    --color-base2: #022a30;
-    --color-brand: #80f3f7;
-    --color-brand2: #05d9ff;
+    --color-body: #000000;
+    --color-heading: #080808;
+    --color-base: #ffffff;
+    --color-base2: #e03838;
+    --color-brand: #000000;
+    --color-brand2: #e03838;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
@@ -17,14 +16,19 @@ body {
     font-family: var(--font-base), sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--color-heading);
     font-weight: 700;
 }
 
 a {
     text-decoration: none;
-    color: var(--color-body);
+    color: var(--color-brand2);
     transition: all 0.4s ease;
 }
 
@@ -38,6 +42,11 @@ img {
 
 .text-brand {
     color: var(--color-brand);
+    font-weight: bold;
+}
+
+.text-brand3 p {
+    color: #fff;
 }
 
 .bg-base {
@@ -50,9 +59,9 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    border-bottom: 2px solid rgba(255,255,255, 0.1);
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .shadow-effect {
@@ -74,7 +83,9 @@ img {
     color: var(--color-base);
 }
 
+
 /* NAVBAR */
+
 .navbar {
     background-color: var(--color-base);
 }
@@ -82,39 +93,52 @@ img {
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
-    color: #fff;
+    color: #000000;
 }
 
 .navbar .nav-link:hover {
-    color: var(--color-brand);
+    color: var(--color-brand2);
 }
 
 .navbar .nav-link.active {
     color: var(--color-brand);
 }
 
-
+.toggle-brand {
+    display: flex;
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    border-radius: 5px;
+    padding: 8px;
+}
 
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/sidebar-img.jpg);
+        background: #000000, url(../images/sidebar-img.jpg);
         background-size: cover;
         background-position: center;
     }
-
     .navbar-brand img {
         border: 8px solid var(--color-brand);
     }
-
     /* CONTENT WRAPPER */
     #content-wrapper {
         padding-left: var(--sidbar-width);
     }
+    .toggle-brand {
+        background-color: var(--color-brand);
+        border-color: var(--color-brand);
+        border-radius: 5px;
+        padding: 8px;
+        display: none;
+    }
 }
 
+
 /* BTN */
+
 .btn {
     padding: 12px 28px;
     font-weight: 700;
@@ -153,7 +177,9 @@ img {
     width: 100%;
 }
 
+
 /* CARD */
+
 .card-custom .card-custom-image {
     overflow: hidden;
 }
@@ -166,7 +192,9 @@ img {
     transform: scale(1.1);
 }
 
+
 /* CONTACT */
+
 #contact .form-control {
     background-color: var(--color-base);
     border-color: var(--color-base);
@@ -186,8 +214,8 @@ img {
     height: 44px;
 }
 
-/* SOCIAL ICONS */
 
+/* SOCIAL ICONS */
 
 .social-icons a {
     width: 40px;
