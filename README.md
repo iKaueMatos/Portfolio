@@ -13,9 +13,9 @@ O projeto juntamente com os estudos ainda está em desenvolvimento e as próxima
 
 - [x] Tarefa 1 - Atualização de paleta de cores
 - [x] Tarefa 2 - Novos efeitos 
-- [ ] Tarefa 3 - Envio do formulario
-- [ ] Tarefa 4 - Correção de classes
-- [ ] Tarefa 5 - 
+- [x] Tarefa 3 - Envio do formulario
+- [x] Tarefa 4 - Correção de classes
+- [x] Tarefa 5 - Novas funcionalidades 
 
 ## 💻 Pré-requisitos
 
